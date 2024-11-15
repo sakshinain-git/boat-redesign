@@ -1,0 +1,161 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body and Typography */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f1f1f1;
+    color: #333;
+}
+
+/* Header */
+header {
+    background-color: #000;
+    padding: 20px 0;
+}
+
+header nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+header nav ul li {
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+header nav ul li a:hover {
+    color: #f44336;
+}
+
+/* Hero Section */
+.hero {
+    background: url('https://images.livemint.com/img/2022/12/18/1600x900/boat_steam_edition_1671374394061_1671374403182_1671374403182.jpg') no-repeat center center/cover;
+    height: 60vh;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+}
+
+.cta-button {
+    background-color: #f44336;
+    padding: 15px 30px;
+    color: white;
+    font-size: 1.1rem;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.cta-button:hover {
+    background-color: #d32f2f;
+}
+
+/* Product Gallery Section */
+.product-gallery {
+    background-color: #ffffff;
+    padding: 60px 0;
+    text-align: center;
+}
+
+.product-gallery h2 {
+    font-size: 2.5rem;
+    color: #000;
+    margin-bottom: 40px;
+}
+
+.gallery {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.gallery-item {
+    width: 30%;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.gallery-item img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.gallery-item h3 {
+    font-size: 1.6rem;
+    color: #f44336;
+}
+
+.gallery-item p {
+    font-size: 1.1rem;
+    color: #333;
+}
+
+.gallery-item a {
+    display: inline-block;
+    margin-top: 15px;
+    color: #f44336;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.gallery-item a:hover {
+    text-decoration: underline;
+}
+
+/* About Section */
+.about {
+    background-color: #f1f1f1;
+    padding: 60px 0;
+    text-align: center;
+}
+
+.about-content p {
+    font-size: 1.2rem;
+    color: #333;
+    line-height: 1.6;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Footer */
+footer {
+    background-color: #000;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer p {
+    font-size: 1rem;
+}
